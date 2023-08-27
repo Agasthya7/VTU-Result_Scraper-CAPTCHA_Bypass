@@ -23,10 +23,9 @@ if usn_input_style == '1':
             print("Invalid file location. Please try again.")
 
 elif usn_input_style =='2':
-            with open(" Data\USN_Data.txt", 'r') as f:
-                my_list = [line.strip() for line in f]
-            break
-
+    with open(r"Data\USN_Data.txt",'r') as f:
+        my_list= [line.strip() for line in f]
+        
 elif usn_input_style == '3':
     first_bit = input('Enter the first bit of your college usn\n')
     college = input("Enter the college code\n").upper()
