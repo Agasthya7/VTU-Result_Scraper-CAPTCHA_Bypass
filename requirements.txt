@@ -1,0 +1,12 @@
+keras
+imutils
+cv2
+numpy
+pickle
+matplotlib
+openpyxl
+pytesseract
+time
+PIL
+selenium
+webdriver-manager
