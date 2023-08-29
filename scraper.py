@@ -25,7 +25,6 @@ if usn_input_style == '1':
 elif usn_input_style =='2':
             with open(r"Data\USN_Data.txt", 'r') as f:
                 my_list = [line.strip() for line in f]
-            break
 
 elif usn_input_style == '3':
     first_bit = input('Enter the first bit of your college usn\n')
