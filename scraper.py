@@ -23,8 +23,9 @@ if usn_input_style == '1':
             print("Invalid file location. Please try again.")
 
 elif usn_input_style =='2':
-            with open(r"Data\USN_Data.txt", 'r') as f:
+            with open(r"Data\USN_Data.txt",'r') as f:
                 my_list = [line.strip() for line in f]
+
 
 elif usn_input_style == '3':
     first_bit = input('Enter the first bit of your college usn\n')
@@ -118,7 +119,7 @@ for i in range(student_no):
         #repeat=False
         # configure web driver
         options = webdriver.ChromeOptions()
-        options.add_argument('--headless')
+        #options.add_argument('--headless')
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
 

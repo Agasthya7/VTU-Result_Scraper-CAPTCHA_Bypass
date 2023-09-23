@@ -1,12 +1,11 @@
 keras
 imutils
-cv2
+opencv-python
 numpy
-pickle
 matplotlib
 openpyxl
 pytesseract
-time
-PIL
+pillow
 selenium
 webdriver-manager
+scikit-learn
