@@ -68,6 +68,13 @@ Added a feature to capture the reval results of the students.
 - Run `result_updater.py` to update the results of the students with the reval results.
 - Then one can run `excel_file.py` to generate the excel data for the marks and then `cgpa.py` to enter the cgpa.
 
+## Update -23/02/24
+
+Added a feature to compute the marks and overall percentage of the students.
+
+- Run `marks.py` to get the total marks of the students.
+- It is suggested to run `marks.py` after running the `cgpa.py` program as it is written to be run in that manner. 
+
 ## Issues
 
 - The `completed.txt`file does not work perfectly as intended. It is a minor bug and does not compromise functionality. It is advised to start the program and not stop it in between as the program cannot retain the last USN which it stopped at.
